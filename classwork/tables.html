@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Table Examples</title>
+</head>
+<body>
+  <h1>Table Examples</h1>
+  <h2>Exercise 8-1: Making a Simple Table</h2>
+  <table>
+    <caption>List of Albums by the Beatles</caption>
+    <tr>
+      <th scope="col">Album</th>
+      <th scope="col">Year</th>
+    </tr>
+    <tr>
+      <td>Rubber Soul</td>
+      <td>1965</td>
+    </tr>
+    <tr>
+      <td>Revolver</td>
+      <td>1966</td>
+    </tr>
+    <tr>
+      <td>Sgt. Pepper's</td>
+      <td>1967</td>
+    </tr>
+    <tr>
+      <td>The White Album</td>
+      <td>1968</td>
+    </tr>
+    <tr>
+      <td>Abbey Road</td>
+      <td>1969</td>
+    </tr>
+  </table>
+
+  <h2>Exercise 8-1:Column Spans (TV Guide)</h2>
+  <table border="1" width="750px">
+    <caption>TV Guide </caption>
+    <thead>
+    <tr>
+      <th scope="col">7:00pm</th>
+      <th scope="col">7:30pm</th>
+      <th scope="col">8:00pm</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td colspan="3">The Sunday Night Movie</td>
+    </tr>
+    <tr>
+      <td>Perry Mason</td>
+      <td>Candid Camera</td>
+      <td>What's my line?</td>
+    </tr>
+    <tr>
+      <td>Bonanza</td>
+      <td colspan="2">The Wackiest ship in the Army</td>
+    </tr>
+    </tbody>
+  </table>
+  <h2>Exercise 8-4:Table Challenge</h2>
+  <table border="1">
+    <caption>Your Content Here</caption>
+    <thead>
+    <tr>
+      <th rowspan="2"></th>
+      <th colspan="2" scope="col">A common header for two subheads</th>
+      <th rowspan="2" scope="col">Header 3</th>
+    </tr>
+    <tr>
+      <th scope="col">Header 1</th>
+      <th scope="col">Header 2</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="col">Thing A</th>
+      <td>data A1</td>
+      <td>data A2</td>
+      <td>data A3</td>
+    </tr>
+    <tr>
+      <th scope="col">Thing B</th>
+      <td>data B1</td>
+      <td>data B2</td>
+      <td>data B3</td>
+    </tr>
+    <tr>
+      <th scope="col">Thing C</th>
+      <td>data C1</td>
+      <td>data C2</td>
+      <td>data C3</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

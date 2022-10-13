@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jordan's Website</title>
+  <!-- This style section may have to be removed at a later date-->
+  <style type="text/css">
+     ol, ul {
+
+    list-style-type: none;
+
+     }
+  </style>
+</head>
+<body>
+<h1>Contact</h1>
+<form id="form" name="form" method="post" action="http://cis190a.nupurple.net/vdevine/project/contact.php">
+<p>
+  <ul>
+    <li><label>Name </label><input type ="text" name="name" id="name" required></li><br>
+    <li><label>Email </label><input type ="email" name="email" id="email" required></li><br>
+  </ul>
+</p>
+<p><label>What is your favorite color?</label>
+  <ul>
+    <li><input type ="radio" name="color" id="color1" value="red"><label>Red</label></li>
+    <li><input type ="radio" name="color" id="color2" value="blue"><label>Blue</label></li>
+    <li><input type ="radio" name="color" id="color3" value="Green"><label>Green</label></li>
+    <li><input type ="radio" name="color" id="color4" value="Purple"><label>Purple</label></li>
+    <br>
+  </ul>
+</p>
+<p><label>Which movies have you watched?</label>
+  <ul>
+    <li><input type ="checkbox" name="movie[]" id="movie1" value="B2tF"><label>Back to the Future</label></li>
+    <li><input type ="checkbox" name="movie[]" id="movie2" value="B2tF2"><label>Back to the Future II</label></li>
+    <li><input type ="checkbox" name="movie[]" id="movie3" value="B2tF3"><label>Back to the Future III</label></li>
+    <li><input type ="checkbox" name="movie[]" id="movie4" value="SW ep 4"><label>Star Wars: Episode IV - A New Hope</label></li>
+
+    <br>
+  </ul>
+</p>
+<p><label>What is the best contact method?</label>
+  <ul>
+    <li><select name="contact" id="contact" required>
+      <option value="">Select the best contact method</option>
+      <option>Call</option>
+      <option>Email</option>
+      <option>Text</option>
+    </select></li><br>
+  </ul>
+</p>
+<p>
+  <ul>
+    <li><label>Comments/Questions </label><input type ="textarea" name="comments" id="comments"></li><br>
+    <li><label>Submit </label><input type ="submit" name="submit" id="submit"></li><br>
+  </ul>
+</p>
+
+
+</form>
+</body>
+</html>
